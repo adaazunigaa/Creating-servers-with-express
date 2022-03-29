@@ -11,7 +11,7 @@ const app = express();
 
 // home directory
 app.get("/", (req, res) => {
-    res.send("This is the home page")
+    res.send("This is the home page!!! \n HELLO")
 });
 
 app.get("/r/:subreddit", (req, res) => {
